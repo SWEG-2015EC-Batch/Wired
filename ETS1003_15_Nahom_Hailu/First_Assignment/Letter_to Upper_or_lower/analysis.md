@@ -16,7 +16,7 @@ step 3 : If letter is upper </br>
 then: new_letter = lower(letter) </br>
 Else : new_letter = upperletter) </br>
 endif </br>
-step 4 : Print BMI </br>
+step 4 : Print newletter </br>
 Step 5 : Stop </br>
 # 4,Design the program(in C++)
 ##### 3.1 Importing library(ctype library)
