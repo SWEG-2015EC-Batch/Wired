@@ -1,4 +1,4 @@
-//c++ exponential program
+//c++ program that calculate x the power of y
 #include <iostream>
 #include <cmath>
 #include <ctype.h>
