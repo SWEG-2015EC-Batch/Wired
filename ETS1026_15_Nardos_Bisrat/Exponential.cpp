@@ -1,4 +1,4 @@
-//calculate the power
+//c++ exponential program
 #include <iostream>
 #include <cmath>
 #include <ctype.h>
