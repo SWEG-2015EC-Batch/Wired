@@ -1,4 +1,4 @@
-//calculate the BMI
+//c++ program that calculate BMI
 #include <iostream>
 
 using namespace std;
