@@ -19,16 +19,16 @@ endif </br>
 step 4 : Print newletter </br>
 Step 5 : Stop </br>
 # 4,Design the program(in C++)
-##### 3.1 Importing library(ctype library)
+##### 4.1 Importing library(ctype library)
 include <ctype.h>
-##### 3.2 Variable declaration and intialization
+##### 4.2 Variable declaration and intialization
 char letter, new letter </br>
-##### 3.3 Reading the input data
+##### 4.3 Reading the input data
 cout << "Enter the letter" << endl;
 cin >> letter;
-##### 3.4 Main operation 
-###### 3.4.1 checking the letter if it is capital using if (isupper(letter) == true){...}
-###### 3.4.2 opration to change it to lowercase using newLetter = tolower(letter) 
-###### 3.4.3 opration to change it to uppercase using  newLetter = toupper(letter)
-##### 3.5 printing on screen
+##### 4.4 Main operation 
+###### 4.4.1 checking the letter if it is capital using if (isupper(letter) == true){...}
+###### 4.4.2 opration to change it to lowercase using newLetter = tolower(letter) 
+###### 4.4.3 opration to change it to uppercase using  newLetter = toupper(letter)
+##### 4.5 printing on screen
 cout << "New letter is "<<"\""<<newLetter << "\""
