@@ -1,17 +1,14 @@
+// c++ program that convert upper and lower case letters to their equivalent
 #include <iostream>
 #include <ctype.h>
-
 using namespace std;
-
 int main()
 {
-    //declaring variables
+    //declaring variable
     char letter;
-
     //input the letter
     cout<<"enter letter";
     cin>>letter;
-
     //check if it is lowercase
     if (islower(letter))
         {
