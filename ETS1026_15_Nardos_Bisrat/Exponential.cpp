@@ -1,3 +1,4 @@
+//calculate the power
 #include <iostream>
 #include <cmath>
 #include <ctype.h>
