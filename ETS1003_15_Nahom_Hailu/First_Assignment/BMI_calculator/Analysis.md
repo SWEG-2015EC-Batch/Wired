@@ -31,12 +31,12 @@ id3--> id4
 id4--> id5
 ```
 # 4,Design the program
-##### 3.1 Variable declaration and intialization
+##### 4.1 Variable declaration and intialization
 float heigth,weigth = 0.0; </br>
-##### 3.2 Reading the input data
+##### 4.2 Reading the input data
 cin >> Heigth; </br>
 cin >> Wiegth; </br>
-##### 3.3 Main operation 
+##### 4.3 Main operation 
 BMI =  Wiegth/ Heigth * Heigth </br>
-##### 3.4 printing on screen
+##### 4.4 printing on screen
 cout <<  "BMI is" << Wiegth/ Heigth * Heigth;
