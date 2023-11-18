@@ -14,6 +14,21 @@ step 2 : read base, power </br>
 step 3 : compute result = base ^ power</br>
 step 4 : Print result </br>
 Step 5 : Stop </br>
+
+ALGORITHM(FLOWCHART)
+
+```mermaid
+flowchart LR;
+id1([start])
+id2[/Read base, power/]
+id3[result = base ^ power]
+id4[/Print result/]
+id5([stop])
+id1-->id2
+id2--> id3
+id3--> id4
+id4--> id5
+```
 # 4,Design the program(in C++)
 ##### 4.1 Importing library(cmath library)
 include \<cmath\>
