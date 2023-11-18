@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-  //declearing variables
+  //declearing variables capacity of tank and mile per gallon
    int fuleTank;
    int milePerGallons;
   //promots the user to enter capacity of fule tank
