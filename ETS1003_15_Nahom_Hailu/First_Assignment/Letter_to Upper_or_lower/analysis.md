@@ -9,7 +9,8 @@ new letter(lower or upper case equvalent)
 1,check whether upper or lower </br>
 2,change to upper if lower </br>
 3,change to lower if upper </br>
-# 3, Algoritm Design (In Psuedocode) </br>
+# 3, Algoritm Design 
+## 3.1 In Psuedocode
 step 1 : Start </br>
 step 2 : read letter </br>
 step 3 : If letter is upper </br>
@@ -18,6 +19,24 @@ Else : new_letter = upperletter) </br>
 endif </br>
 step 4 : Print newletter </br>
 Step 5 : Stop </br>
+## #.2 In flowchart
+```mermaid
+flowchart LR;
+id1([start])
+id2[/read letter/]
+id3{is letter UpperCase?}
+id4[newletter = lower(letter)]
+id5[newletter = upper(letter)]
+id6[/print newletter/]
+id7 ([stop])
+id1-->id2
+id2-->id3
+id3--> id4
+id3--> id5
+id4--> id6
+id5--> id6
+id6--> id7
+```
 # 4,Design the program(in C++)
 ##### 4.1 Importing library(ctype library)
 include <ctype.h>
