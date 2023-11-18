@@ -1,5 +1,5 @@
 # Analysis- <br>
-## Input: fule tank, millePerGallon <br>
+## Input: letter <br>
 ## Process:  fule tank * mile per gallon <br>
 ## output: fule tank * mile per gallon <br>
 # Psudocode- <br>
