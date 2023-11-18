@@ -1,32 +1,41 @@
-### 1,Problem Description
-Write a program to calculate a time to send data to serial transmitter which can transmit 960 charcter per second.
-### 2,Problem Analysis
-#### Input 
-size of data to be transmit(dataValue in mb)
-#### Output 
-time it takes to tramsimt(time)
-#### Process
-time = sendrate * dataValue </br>
-### 3, Algoritm Design (In Psuedocode) </br>
-step 1 : Start </br>
-step 2 : read data_value</br>
-step 3 : data_value = data_value * 1048576 byte/mb </br>
-step 4 : time = dataValue/sendrate </br>
-Step 5 : time = time / (24 * 3600) in  days </br>
-step 6 : print time </br>
-step 7 : stop </br>
-### 4,Design the program
-##### 4.1 Variable declaration and intialization
-float dataValue, time;</br>
-##### 4.2 Constant Declaration and intialization
-#define sendRate 960 
-##### 4.3 Reading the input data
-cout << "enter the amount of data in mb  "; </br>
-cin >> dataValue;
-##### 4.4 main operation
-dataValue = dataValue * 1048576; //to change mb to byte// </br>
-time = dataValue / sendRate;
-##### 4.5 print the output
-cout << "The time requrired is approximetly ";</br>
--to change time in second to days(integer) </br> 
-cout << int((time/(24*3600))+0.5)<< " in days";</br
+# Problem Analysis
+
+## Purpose
+The purpose of this C++ program is to estimate the transmission time required to send a file over a serial transmission line. It takes user input for the file size and calculates the estimated transmission time based on a default transmission speed. The output includes information about the file size, transmission speed, and the estimated transmission time in days, hours, minutes, and seconds.
+
+## Functionality
+1. Prompt the user to enter the file size in bytes.
+2. Calculate the estimated transmission time using a default transmission speed of 960 characters per second.
+3. Convert the transmission time to days, hours, minutes, and seconds.
+4. Display the file size, transmission speed, and estimated transmission time in a user-friendly format.
+
+## Input
+- File size in bytes (user input).
+
+## Output
+- File size in bytes.
+- Default transmission speed (960 characters per second).
+- Estimated transmission time in days, hours, minutes, and seconds.
+
+## Assumptions
+- The default transmission speed is fixed at 960 characters per second.
+- The calculation assumes that 1 day is equivalent to 24 hours, 1 hour is equivalent to 60 minutes, and 1 minute is equivalent to 60 seconds.
+
+## Dependencies
+- None
+
+## Considerations for Future Improvements
+- Allow the user to input a custom transmission speed.
+- Enhance user input validation to handle invalid input more robustly.
+- Provide additional details about the transmission process.
+
+# Instructions for Running the Code
+1. Clone the repository.
+2. Compile the C++ program using a C++ compiler (e.g., g++).
+3. Run the compiled executable.
+4. Follow the prompts to input the file size.
+
+# Example Usage
+```bash
+$ g++ filename.cpp -o transmission_estimator
+$ ./transmission_estimator
