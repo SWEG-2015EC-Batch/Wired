@@ -19,7 +19,8 @@ step 7 : stop </br>
 ALGORITHM(FLOWCHART)
 
 ```mermaid
-graph LR;
+
+flowchart LR;
 id1([start]);
 id2[/data_value/];
 id3[data_value = data_value * 1048576 byte/mb];
@@ -33,8 +34,8 @@ id3--> id4;
 id4--> id5;
 id5--> id6;
 id6--> id7;
-```
 
+```
 ### 4,Design the program
 ##### 4.1 Variable declaration and intialization
 float dataValue, time;</br>
