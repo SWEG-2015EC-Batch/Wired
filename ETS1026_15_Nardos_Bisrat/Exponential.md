@@ -5,7 +5,7 @@ write c++ program to calculate x the power of y
 int x(base)
 int y(power)
 ## Output
-rsult
+result
 ## Process/Operation
 result = base ^ power
  Display result
