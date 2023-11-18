@@ -10,4 +10,4 @@
 ## step5:end <br>
 # Flow Chart <br>
 
-<img width="560" alt="Exponent_flowchart" src="https://github.com/SWEG-2015EC-Batch/Wired/assets/118844475/4580131a-264f-47f9-af8f-1cd681d1508e">
+<img width="682" alt="Screen Shot 2023-11-18 at 11 41 43 AM" src="https://github.com/SWEG-2015EC-Batch/Wired/assets/118844475/b0e190f9-f990-4098-9d3d-707e6d765228">
