@@ -15,6 +15,26 @@ step 4 : time = dataValue/sendrate </br>
 Step 5 : time = time / (24 * 3600) in  days </br>
 step 6 : print time </br>
 step 7 : stop </br>
+## 3.2 In Flow chart
+ALGORITHM(FLOWCHART)
+
+```mermaid
+graph LR;
+id1([start]);
+id2[/data_value/];
+id3[data_value = data_value * 1048576 byte/mb];
+id4[time = dataValue/sendrate];
+id5[time = time / (24 * 3600) in  days ];
+id6[/Print Time/];
+id7([stop]);
+id1--> id2;
+id2--> id3;
+id3--> id4;
+id4--> id5;
+id5--> id6;
+id6--> id7;
+```
+
 ### 4,Design the program
 ##### 4.1 Variable declaration and intialization
 float dataValue, time;</br>
