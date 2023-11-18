@@ -1,7 +1,7 @@
 # Analysis- <br>
-## Input: Capacity of tank, millePerGallon <br>
-## Process: totaldrive = capacity of tank * mile per gallon <br>
-## output: totaldrive <br>
+## Input: fule tank, millePerGallon <br>
+## Process:  fule tank * mile per gallon <br>
+## output: fule tank * mile per gallon <br>
 # Psudocode- <br>
 ## Step1: start <br>
 ## Step2: Read Capacity of tank, millePerGallon <br>
