@@ -21,21 +21,27 @@ step 4 : Print newletter </br>
 Step 5 : Stop </br>
 ## #.2 In flowchart
 ```mermaid
-flowchart LR;
-id1([start])
-id2[/read letter/]
-id3{is letter UpperCase?}
-id4[newletter = lowerofletter]
-id5[newletter = upperofletter]
-id6[/print newletter/]
-id7 ([stop])
-id1-->id2
-id2-->id3
-id3--> id4
-id3--> id5
-id4--> id6
-id5--> id6
-id6--> id7
+```mermaid
+graph LR;
+id1([Start]);
+id2[/Read character/];
+id4{Alphabetic?};
+id8{Is uppercase?};
+id3(To lowercase);
+id9(To uppercase);
+id5[/Print character/];
+id7[/Print ERROR/];
+id6([End]);
+id1-->id2;
+id2-->id4;
+id4--yes-->id8;
+id4--no-->id7;
+id8--yes-->id3;
+id8--no-->id9;
+id9-->id5;
+id3-->id5;
+id5-->id6;
+id7-->id6;
 ```
 # 4,Design the program(in C++)
 ##### 4.1 Importing library(ctype library)
