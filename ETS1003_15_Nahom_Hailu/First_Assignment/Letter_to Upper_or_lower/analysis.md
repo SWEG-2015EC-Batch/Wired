@@ -25,8 +25,8 @@ flowchart LR;
 id1([start])
 id2[/read letter/]
 id3{is letter UpperCase?}
-id4[newletter = lower(letter)]
-id5[newletter = upper(letter)]
+id4[newletter = lowerofletter]
+id5[newletter = upperofletter]
 id6[/print newletter/]
 id7 ([stop])
 id1-->id2
