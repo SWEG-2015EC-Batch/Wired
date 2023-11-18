@@ -29,4 +29,4 @@ cin >> letter;
 check if the letter is capital then change it to lowercase using newLetter = tolower(letter)
 check if the letter is small then change it to uppercase using newLetter = toupper(letter)
 ## printing result
-cout <<"New letter is"<<"newLetter"<<;
+cout <<"upper or lower equivalent"<<"newLetter"<<;
