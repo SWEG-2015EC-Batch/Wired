@@ -28,6 +28,20 @@ step 7 : Tax = gross-salary * TAX rate </br>
 step 8 : net salary = gross-salary - (pension + Tax) </br>
 step 9 : print bonus payment, net salary </br>
 step 10 : stop</br>
+```mermaid
+graph LR;
+id1([Start])-->id2[/read employee name,working hours,bonus rate per hour,base salary/]
+id2--> id3{is work hours > 40?}
+id3--> id4[ bonus payment= work hours - 40 *bonus rate]
+id3--> id5[bonus payment = 0]
+id4--> id6[gross-salary = base salary + bonus payment]
+id5--> id6[gross-salary = base salary + bonus payment]
+id6--> id7[ pension = gross-salary * PENSION RATE]
+id7--> id8[Tax = gross-salary * TAX rate]
+id8--> id9[net salary = gross-salary - pension - Tax]
+id9--> id10[/print bonus payment,gross-salary,net salary/]
+id10--> id11([Stop])
+```
 #4 Program design
 ##### 4.1 Variable declaration and intialization
 string employee name float working hours,bonus rate per hour,base salary,overtime,gross_salary,net_salary
