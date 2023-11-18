@@ -19,21 +19,13 @@ step 7 : stop </br>
 ALGORITHM(FLOWCHART)
 
 ```mermaid
-
-flowchart LR;
-id1([start]);
-id2[/data_value/];
-id3[data_value = data_value * 1048576 byte/mb];
-id4[time = dataValue/sendrate];
-id5[time = time / (24 * 3600) in  days ];
-id6[/Print Time/];
-id7([stop]);
-id1--> id2;
-id2--> id3;
-id3--> id4;
-id4--> id5;
-id5--> id6;
-id6--> id7;
+graph LR;
+id1([start])--> id2[/read data_value/];
+id2--> id3[data_value = data_value * 1048576 byte/mb];
+id3--> id4[time = dataValue/sendrate];
+id4--> id5[time=time /24*3600];
+id5--> id6[/print time/];
+id6--> id7([stop]);
 
 ```
 ### 4,Design the program
