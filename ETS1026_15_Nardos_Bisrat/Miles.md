@@ -2,7 +2,7 @@
 Write c++ program that calculate the number miles that an automobile can be driven with out refueling
 # Problem Analysis
 ## Input 
-float fuelcapcity,mpg;
+float fuelcapcity,mpg(mile per gallon);
 ## Output
 the number of miles that an automobile can be driven
 ## Process
