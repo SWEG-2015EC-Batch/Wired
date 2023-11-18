@@ -25,7 +25,7 @@ id2[/Read heigth, wiegth/]
 id3[BMI =  Wiegth/ Heigth * Heigth]
 id4[/Print BMI/]
 id5([stop])
-id1-->id2
+id1--> id2
 id2--> id3
 id3--> id4
 id4--> id5
