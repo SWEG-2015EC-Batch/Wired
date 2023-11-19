@@ -25,8 +25,8 @@ Body mass index (BMI)
 ```mermaid
 flowchart LR;
 id1([start])
-id2[/Read heigth, wiegth/]
-id3[BMI =  Wiegth/ Heigth * Heigth]
+id2[/Read heigth, weigth/]
+id3[BMI =  weigth/heigth*heigth]
 id4[/Print BMI/]
 id5([stop])
 id1--> id2
