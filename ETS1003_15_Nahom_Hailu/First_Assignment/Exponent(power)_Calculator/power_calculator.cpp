@@ -10,3 +10,4 @@ cout << "Wellcome this system returns first number power of second number"<< end
     cout << "enter the secound number ";
     cin >> power;
 cout << "the result is equals to " << pow(base,power); 
+}
