@@ -20,6 +20,20 @@ Body mass index (BMI)
  step 4: Print BMI
 
  step 5: Stop
+ # Algorithm in Flow chart
+
+```mermaid
+flowchart LR;
+id1([start])
+id2[/Read heigth, wiegth/]
+id3[BMI =  Wiegth/ Heigth * Heigth]
+id4[/Print BMI/]
+id5([stop])
+id1--> id2
+id2--> id3
+id3--> id4
+id4--> id5
+```
  # Design the program
  ## Variable declaration and initialization
  float weight,height=0.0;
