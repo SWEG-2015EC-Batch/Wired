@@ -21,9 +21,12 @@ step 4.1:if i<=row then </br>
 &emsp;&emsp;&emsp;&emsp;End if </br>
 &emsp;&emsp; print (to new line) </br>
 &emsp;&emsp;i=i+1 </br>
+&emsp;&emsp;j=1 </br>
 &emsp;&emsp;goto step 4.1 </br>
 &emsp;&emsp;End if </br>
 step 5 End
+## flow Chart
+<img src="Flowcharts.jpeg"> </br>
 # 4,Program Design
 ## 4.1 Variable declaration
 int row , colomn, i(1),j(1);
