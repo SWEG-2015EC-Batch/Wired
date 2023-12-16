@@ -48,6 +48,8 @@ step5.2 if side >= k then </br>
 &emsp;&emsp;&emsp;&emsp;goto step 5.2</br>
 &emsp;&emsp;&emsp;&emsp;End if</br>
 step 6: End
+## flow chart 
+<img src="Flowcharts.jpeg"></br>
 # 4,Program Design
 # 4.1 Variable design
 int side,i(1),j(1),k(1),space = side, spacecheker=1;
