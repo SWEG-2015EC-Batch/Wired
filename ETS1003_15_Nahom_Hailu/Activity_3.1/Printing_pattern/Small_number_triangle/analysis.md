@@ -23,6 +23,8 @@ step 4.1: if i<=side then </br>
 &emsp;&emsp;&emsp;goto step 4.1 </br>
 &emsp;End if </br>
 step 5: End if 
+## Flow charts
+<img src="Flowcharts.jpeg"> </br>
 # Program Design
 ## 4.1 Variable
 int side,j(1); </br>
