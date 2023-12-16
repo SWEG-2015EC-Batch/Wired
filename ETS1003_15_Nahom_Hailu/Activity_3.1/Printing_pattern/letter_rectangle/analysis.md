@@ -24,6 +24,7 @@ step 4.1: if i <= row then </br>
 &emsp;&emsp;&emsp;&emsp;goto step 4.1</br>
 &emsp;&emsp;&emsp;&emsp;End if </br>
 step 5: Stop
+<img src="Flowcharts.jpeg" > </br>
 # 4,Program Design
 ## 4.1 Varaible declaration
 char letter;</br>
