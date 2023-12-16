@@ -17,14 +17,17 @@ step 4.1 : if side >= i then </br>
 &emsp;&emsp;&emsp;&emsp;step 4.2 k=1 </br>
 &emsp;&emsp;&emsp;&emsp;step 4.3 if j>=k </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;print "*  " </br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;k=k+1</br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; goto step 4.3 </br>
 &emsp;&emsp;&emsp;&emsp;end if </br>
-&emsp;&emsp;print to new </br>
+&emsp;&emsp;print to newline </br>
 &emsp;&emsp; j=j+1 </br>
 &emsp;&emsp; i=i+1 </br>
 &emsp;&emsp;goto step 4.1 </br>
 &emsp;&emsp; endif </br>
 step 5: end
+## Flow chart
+<img src="Flowcharts.jpeg"></br>
 # program design
 ## 1,Variable declaration
 int side, i(1),j(1),k(1);
