@@ -26,6 +26,8 @@ step 4.1: if row>= i then </br>
 &emsp;&emsp;goto step 4.1 </br>
 End if</br>
 step 5: stop
+## Flowchart
+<img src="Flowcharts.jpeg"> </br>
 # 4 problem Design 
 ## 4.1 Vaiable declaration
 int colomn,row;</br>
