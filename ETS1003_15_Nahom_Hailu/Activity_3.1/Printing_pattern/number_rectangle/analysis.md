@@ -24,6 +24,8 @@ step 3.1: if row <=4 then </br>
 &emsp;&emsp;&emsp;&emsp;&emsp; goto step 3.1 </br>
 &emsp;&emsp;&emsp;&emsp;&emsp; Endif </br>
 step 5: end
+## 3.2 Flow chart
+<img src="Flowcharts.jpeg"> </br>
 # 4, Program design
 ## 4.1 Variable declaration
 i for row and j for colomn </br>
