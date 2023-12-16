@@ -22,7 +22,7 @@ step 4.1: if side >= i then </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;space = space + 1 </br>
 &emsp;&emsp;&emsp;&emsp;&emsp; spaceChecker = 1 </br>
 &emsp;&emsp;&emsp;&emsp;step 4.3 if j>= k then </br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; print "  " </br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; print "*  " </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; k=k+1 </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; goto step 4.4 </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;endif </br>
@@ -33,6 +33,8 @@ step 4.1: if side >= i then </br>
 &emsp;&emsp;&emsp;&emsp; goto step 4.1 </br>
 end if </br>
 step 5: end 
+## FlowChart
+<img src="Flowcharts.jpeg"></br>
 # 4,Program Design
 ## 4.1 Variable declaration
 int side,i(1),j(1),k(1),space(0), spacecheker=1; </br>
