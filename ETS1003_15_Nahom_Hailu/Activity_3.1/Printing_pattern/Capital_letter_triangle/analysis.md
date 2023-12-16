@@ -22,9 +22,12 @@ step 4.1:if i<= side then </br>
 &emsp;&emsp;&emsp;&emsp;j=j+1 </br>
 &emsp;&emsp;&emsp;&emsp;print to new line </br>
 &emsp;&emsp;&emsp;&emsp;i=i+1 </br>
+&emsp;&emsp;&emsp;&emsp;k=1 </br>
 &emsp;&emsp;&emsp;&emsp;goto step 4.1 </br>
 &emsp;&emsp;end if</br>
 step 5: Stop
+## Flowchart
+<img src="Flowcharts.jpeg"></br>
 # 4,Program design
 ## 4.1 varaible declaration
 int side,j(1); </br>
