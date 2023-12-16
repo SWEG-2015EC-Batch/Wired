@@ -33,6 +33,8 @@ step 4.1: if side >= i then </br>
 &emsp;&emsp;&emsp;&emsp;&emsp; goto step 4.1 </br>
 &emsp;&emsp;&emsp;end if </br>
 step 5: end if </br>
+## Flow Chart
+<img src="Flowcharts.jpeg"> </br>
 # Program Design
 ## 1,Variable Declaration
 int side,i(1),j(1),k(1),space , spacecheker=1;
