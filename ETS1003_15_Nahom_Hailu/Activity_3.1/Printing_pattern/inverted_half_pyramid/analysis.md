@@ -22,8 +22,12 @@ step 4.1: if side >= i then </br>
 &emsp;&emsp;&emsp;&emsp; end if </br>
 &emsp;&emsp;&emsp;&emsp; print to new line </br>
 &emsp;&emsp;&emsp;&emsp;j=j-1 </br>
+&emsp;&emsp;&emsp;&emsp;i=i+1 </br>
+&emsp;&emsp;&emsp;&emsp;goto step 4.1 </br>
 &emsp;&emsp; end if </br>
 step 5: stop
+## 3.2 Flow chart
+<img src="Flowcharts.jpeg"> </br>
 # 4,Program Design
 ## 4.1 Variable declaration and intialization
 int side, i(1),k(1) </br>
