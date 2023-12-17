@@ -44,6 +44,8 @@ step 4.1: if side >= i then </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; i=i+1 </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;goto step 4.1 </br>
 step 5: end
+## Flow chart
+<img src="Flowcharts.jpeg"></br>
 # 4,program design
 ## 4.1 Varable declaration and intialization
 int side, i(1),j,k(1); </br>
