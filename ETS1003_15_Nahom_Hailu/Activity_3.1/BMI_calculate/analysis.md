@@ -4,6 +4,7 @@ Program to calculate BMI from heigth and weigth and make a description about the
 ## Input
 Heigth, weigth , sex ,number of peoples
 ## Process
+loop for certain number of people
 compute BMI = weigth / heigth * heigth </br>
 Accept sex </br>
 Make discription based on given ranges </br>
