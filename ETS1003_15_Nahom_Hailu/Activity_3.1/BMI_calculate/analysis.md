@@ -39,7 +39,7 @@ end if </br>else
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;print is is over weigth </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;end if </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;else print you are obese </br>
-end if
+end if</br>
 step 7:number = number - 1 </br>
 step 8:goto step 4</br>
 step 9: stop
