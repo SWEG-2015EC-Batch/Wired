@@ -1,13 +1,24 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int grade, gradeInteger;
-cout << "Enter the grade: ";
-cin >> grade;
-while(grade>100 || grade<0){
-cout << "Enter the valid grade\n";
-cin >> grade;  
+int grade(0);
+int test, quiz, project, assignment , Final_exam;
+do{
+if (grade != 0){
+    cout << "invalid grade"<< endl;
 }
+cout << "Enter the test score(out of 15): ";
+cin>> test;
+cout << "Enter the quiz score(out of 5): ";
+cin>> quiz;
+cout << "Enter the project score(out of 20): ";
+cin>> project;
+cout << "Enter the assignment score(out of 10): ";
+cin>> assignment;
+cout << "Enter the Final score(out of 50): ";
+cin>> Final_exam;
+grade = test + quiz + project + assignment + Final_exam; 
+cout << "your grade is" << grade;
 if(grade<100 && grade >0){
   if(grade>=90){
     cout << "grade: A+";
@@ -27,4 +38,6 @@ if(grade<100 && grade >0){
                                                 cout << "grade: F";
                                                      }
                                                         }
+cout << endl;
+}while(grade > 100 || grade < 0);
 }
