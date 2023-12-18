@@ -6,9 +6,9 @@ The program implements a menu-driven system to perform various operations on an 
 - Process: Performs the selected operation on the input number using loops, math functions, arrays etc. 
 - Output: Displays result of selected operation on given number
 
-# 3. pseudocode
+# 3. Pseudocode
 
-   1. Stop
+   1. Start
    2. Display menu options (1-11) 
    3. Take user's choice of operation
    4. If choice is 1-11, take an integer input number
