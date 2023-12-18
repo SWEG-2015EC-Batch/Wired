@@ -6,7 +6,7 @@ Heigth, weigth , sex ,number of peoples
 ## Process
 compute BMI = weigth / heigth * heigth </br>
 Accept sex </br>
-Make disscription based on given ranges </br>
+Make discription based on given ranges </br>
 ## Output
 BMI, discrption on BMI
 # 3, Algorithm
