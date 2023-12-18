@@ -49,7 +49,7 @@ step 4: If operator = + then </br>
 step 4: read operator </br>
 step 5: print "zero to terminate"</br>
 step 6: if operator != 0 then </br>
-&emsp;&emsp;&emsp;&emsp; goto step step </br>
+&emsp;&emsp;&emsp;&emsp; goto step 3</br>
 &emsp;&emsp;&emsp;End if </br>
 step 7: else print number 1 </br>
 step 8: end 
