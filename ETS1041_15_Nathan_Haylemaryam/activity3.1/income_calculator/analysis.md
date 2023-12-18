@@ -1,3 +1,4 @@
+
 # 1 Problem description
 A program that calculate the net pay of a employee 
 # 2 Problem analysis
@@ -32,39 +33,36 @@ Compute Net-Pay of an employee
  # output
   net pay of the employee
   # Pseudocdoe
-  1 start
-  
-  2 promt the user to enter gross salery, worked hour, over time bouuns rate
-  
-  3 if worked hour is >40 find the over time worked hour=(worked hour-40) else consider the over time worked hour as 0
+  step 1: start
 
-  4 if gross salery is up to 200 birr income tax rate=0% 
+  step 2: promt the user to enter gross salery, worked hour, over time bouns rate
   
-   if gross salery 200 to 600 birr income tax rete = 10%
-    
-   if gross salery 600 to 1200 birr income tax rate= 15%
-    
-   if gross salery 1200 to 2000 birr inc0me tax rate= 20%
-    
-   if gross salery 2000 to 3500 birr income  tax rate = 25%
+  step 3: if worked hour is >40 </br> over time worked hour=(worked hour-40) </br>else the over time worked hour as 0
 
+  if gross salery is up to 200 birr then  income tax rate=0% 
+  
+  &emsp;&emsp;&emsp;&emsp;if gross salery 200 to 600 birr then income tax rete = 10%
     
-   if gross salery is above 3500 income tax rate rate = 35%
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; if gross salery 600 to 1200 birr then income tax rate= 15%
+    
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  if gross salery 1200 to 2000 birr then income tax rate= 20%
+    
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  if gross salery 2000 to 3500 birr then income  tax rate = 25%
+    
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;if gross salery is above 3500 then income tax rate rate = 35% </br> endif
    
-  5 calculate  Calculate pension, income tax
+ step 4:  calculate  Calculate pension, income tax
 
-  6 pension = gross salary * 7/100
+ step 5:   pension = gross salary * 7/100
 
- 7  income tax = gross salary * tax rate 
+ step 6:  income tax = gross salary * tax rate 
   
-  8 Compute the bonus payment [optional]
- 
-9  over worked hours * bonus rate
+ step 7:  Compute bonus payment = worked hour * over time bouns rate
 
- 10 Compute Net-Pay of an employee
+step 8: Compute Net-Pay = grosssalary - pension -income tax + bonus payment 
  
-11 print the net pay of the employee
+step 9: print the net pay of the employee
 
-12 stop
+step 10: stop
   
   
