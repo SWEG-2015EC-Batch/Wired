@@ -50,3 +50,7 @@ step 8: if operator != 0 then</br>
 step 7: else print Result</br>
 step 8: end</br>
 
+
+## Flow chart
+![Sample Calculator](https://github.com/SWEG-2015EC-Batch/Wired/assets/122962408/d37f2f9e-8b32-45fc-8719-8d0d89de1662)
+
