@@ -30,7 +30,6 @@ int main() {
 
         // Analyze BMI based on sex
         if (sex == 'M') {
-            cout << "\nYour sex is male ";
             if (BMI < 20.5) {
                 cout << "\nYou are underweight";
             } else if (BMI <= 25.5) {
@@ -41,7 +40,6 @@ int main() {
                 cout << "\nYou are obese";
             }
         } else {
-            cout << "\nYour sex is female ";
 
             if (BMI < 18.5) {
                 cout << "\nYou are underweight";
