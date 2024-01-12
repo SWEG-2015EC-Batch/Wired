@@ -1,1 +1,44 @@
+//Write a C++ program that accept list of numbers from the user and perform the following
+//Print the input numbers.
+//Compute and print the mean, and standard deviation.
 
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int numCount = 0;
+    double sum = 0.0, mean = 0.0, variance = 0.0, stdDeviation = 0.0;
+
+    cout << "Enter the number of values: ";
+    cin >> numCount;
+
+    for (int i = 1; i <= numCount; ++i) {
+        double value;
+        cout << "Enter value " << i << ": ";
+        cin >> value;
+        cout << value << " "; // Print the input value
+
+        sum += value;
+    }
+
+    mean = sum / numCount;
+
+    cout << "\nMean: " << mean << endl;
+
+    // Calculate variance without storing individual values
+    for (int i = 1; i <= numCount; ++i) {
+        double value;
+        cout << "Enter value " << i << " again: "; // Re-enter values for variance calculation
+        cin >> value;
+        variance += pow(value - mean, 2);
+    }
+    variance /= numCount;
+
+    stdDeviation = sqrt(variance);
+
+    cout << "Standard deviation: " << stdDeviation << endl;
+
+    return 0;
+}
