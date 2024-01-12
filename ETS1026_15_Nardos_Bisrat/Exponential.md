@@ -19,6 +19,19 @@ result = base ^ power
  step 4: Print result
 
  step 5: Stop
+ ALGORITHM(FLOWCHART)
+ ```mermaid
+flowchart LR;
+id1([start])
+id2[/Read base, power/]
+id3[result = base ^ power]
+id4[/Print result/]
+id5([stop])
+id1-->id2
+id2--> id3
+id3--> id4
+id4--> id5
+```
  # Design the program
  ## Variable declaration and initialization
  int x,y
