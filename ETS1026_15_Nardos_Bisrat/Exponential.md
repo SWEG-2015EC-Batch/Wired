@@ -19,7 +19,7 @@ result = base ^ power
  step 4: Print result
 
  step 5: Stop
- ## ALGORITHM(FLOWCHART)
+ ## ALGORITHM in flowchart
  ```mermaid
 flowchart LR;
 id1([start])
