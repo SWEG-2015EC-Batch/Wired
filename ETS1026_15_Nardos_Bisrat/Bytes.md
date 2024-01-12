@@ -20,6 +20,17 @@ Step 4: time in Seconds=fileSizeInBytes/transmissionRate
 Step 5: display the time taken in sec
 
 Step 6: stop
+## 3.2 In Flow chart
+ALGORITHM(FLOWCHART)
+
+```mermaid
+graph LR;
+id1([start])--> id2[/read file_size/];
+id2--> id3[time_in_Seconds = fileSizeInBytes/transmissionRate];
+id3--> id4[/print time/];
+id4--> id5([stop]);
+
+```
 
  # Design the program
  ## Variable declaration and initialization
