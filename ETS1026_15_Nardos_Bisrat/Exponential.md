@@ -23,8 +23,8 @@ result = base ^ power
  ```mermaid
 flowchart LR;
 id1([start])
-id2[/Read base, power/]
-id3[result = base ^ power]
+id2[/Read X, Y/]
+id3[result = X ^ Y]
 id4[/Print result/]
 id5([stop])
 id1-->id2
