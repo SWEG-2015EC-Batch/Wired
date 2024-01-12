@@ -17,6 +17,19 @@ step 3 : calculate mile=fuel_capacity*mpg
 step 4 : Print mile
 
 Step 5 : Stop 
+## Algoritm Design in flowchart
+```mermaid
+flowchart LR;
+id1([start])
+id2[/read capacity of tank , mpg/]
+id3[mile=fuel_capacity*mpg]
+id4[/Print mile/]
+id5([stop])
+id1-->id2
+id2--> id3
+id3--> id4
+id4--> id5
+```
 # Design the program
 ## Variable declaration and intialization
 float fuelcapcaity,mpg= 0;
