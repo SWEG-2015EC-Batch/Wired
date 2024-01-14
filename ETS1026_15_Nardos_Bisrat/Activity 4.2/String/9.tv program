@@ -1,1 +1,19 @@
+#include <iostream>
+#include <cstring>  
 
+using namespace std;
+
+int main() {
+    char programs[2][50];  
+
+    // Initialize first program name at declaration
+    strcpy(programs[0], "seifu on ebs"); 
+    // Initialize second program name using strcpy()
+    strcpy(programs[1], "master chef");
+
+    cout << "My favorite TV programs are:\n";
+    cout << "1. " << programs[0] << endl;
+    cout << "2. " << programs[1] << endl;
+
+    return 0;
+}
