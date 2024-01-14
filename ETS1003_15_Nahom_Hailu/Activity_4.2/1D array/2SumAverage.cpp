@@ -9,6 +9,10 @@ int main(){
         cin >> number[i];
         sum+=number[i];
     }
+    cout << "\nThe numbers are: "; 
+      for(int i=0;i<8;i++){
+        cout << number[i]<< setw(10);
+    }
     double average = sum/8.0;
     cout <<"sum: "<<sum<<"\nAverage: "<<average;
 }
