@@ -16,7 +16,7 @@ int main(){
     }
     int max = 1, min = 1;
     int maxcount,mincount;
-    for(int i=1;i<51;i++){
+    for(int i=0;i<52;i++){
     if(count[i]>0){
         if(count[i]>max)
          maxcount = i;  
