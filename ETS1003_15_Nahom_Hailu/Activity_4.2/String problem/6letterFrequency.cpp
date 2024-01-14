@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     string name;
     int count[52]{0}; // Since there are 52 charcter
-    cout << "enter the string(work) : ";
+    cout << "enter the string(work for alphanumeric) : ";
     getline(cin,name);
     for(int i=0;i<name.size();i++){
     if(isalpha(name[i])==false) continue;
