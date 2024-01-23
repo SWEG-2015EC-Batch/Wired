@@ -17,4 +17,5 @@ int main(){
     for(int i=0;i<12;i++){
         cout << ptrarr+i<<"  "<<endl; 
     }
+    return 0;
 }
