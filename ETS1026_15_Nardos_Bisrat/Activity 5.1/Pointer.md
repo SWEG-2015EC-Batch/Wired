@@ -14,7 +14,7 @@ memory address of Arr2 memory address of ptr1<br>
 K=4 x=950<br>
 y=3000<br>
 k=14 k=28 <br>
-## Predict Output #4
+
 ## Predict Output #5
 5 address of ‘5’<br>
 5 address of ‘5’ <br>
