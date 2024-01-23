@@ -1,38 +1,38 @@
 # Pointers Practical Exercises
 ## Predict Output #1
-value of V
-memory address of V memory address of ptr2
-memory address of Arr1 memory address of Arr1
-memory address of Arr1[2] memory address of ptr1
-value of V
-memory address of V memory address of ptr2
-memory address of Arr1 memory address of Arr1
-memory address of Arr2 memory address of ptr1
+value of V<br>
+memory address of V memory address of ptr2<br>
+memory address of Arr1 memory address of Arr1<br>
+memory address of Arr1[2] memory address of ptr1<br>
+value of V <br>
+memory address of V memory address of ptr2<br>
+memory address of Arr1 memory address of Arr1<br>
+memory address of Arr2 memory address of ptr1<br>
 ## Predict Output #2 
 58 58 58
 ## Predict Output #3
-K=4 x=950
-y=3000
-k=14 k=28 
+K=4 x=950<br>
+y=3000<br>
+k=14 k=28 <br>
 ## Predict Output #4
 ## Predict Output #5
-5 address of ‘5’
-5 address of ‘5’ 
-10 address of ‘10’ 
-10 address of ‘10’
-11 address of ‘11’
-12 address of ‘12’
-12 address of ‘12’
+5 address of ‘5’<br>
+5 address of ‘5’ <br>
+10 address of ‘10’ <br>
+10 address of ‘10’<br>
+11 address of ‘11’<br>
+12 address of ‘12’<br>
+12 address of ‘12’<br>
 ## Predict Output #6
-a[0]: 6 a[1]: 5
-a[2]: unknown
-a[3]: 7 a[4]:
+a[0]: 6 a[1]: 5<br>
+a[2]: unknown<br>
+a[3]: 7 a[4]:<br>
 unknown
 ## Predict Output #7
-a[0]: 6 a[1]: 5
-a[2]: unknown
-a[3]: 7 a[4]:
-unknown
+a[0]: 6 a[1]: 5<br>
+a[2]: unknown<br>
+a[3]: 7 a[4]:<br>
+unknown<br>
 ## Predict Output #8
 Mark[0][2]: 24 Mark[1][3]: 30 Mark[2][2]: 40 
 # Analyze the segment below and identify
